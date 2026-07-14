@@ -49,18 +49,41 @@ I work at the intersection of **control theory and robotics** — mostly on syst
 
 ### 🛠 Toolbox
 
-**Control & simulation:** MATLAB · Simulink · Simulink Real-Time · HIL testing · Stateflow
-**Programming:** Python · C/C++ · embedded firmware
-**ML / data:** PyTorch-style workflows, CNNs, MLPs, classical ML pipelines
-**Methods:** Lyapunov stability, adaptive & sliding-mode control, control barrier functions, feedback linearization, event-triggered/sampled-data control, consensus & formation control
+| | Area | Tools & Methods |
+|---|---|---|
+| 🎛 | **Control Theory** | Lyapunov stability · Adaptive control · Sliding-mode control · Feedback linearization · Robust & nonlinear control |
+| 🛡 | **Safety-Critical Control** | Control barrier functions (CBF / HOCBF) · QP-based safety filters · Actuator saturation & constraint handling |
+| 🤝 | **Multi-Agent Systems** | Consensus · Formation control · Distributed & decentralized control · Event-triggered and sampled-data control |
+| 📐 | **Simulation & Modeling** | MATLAB · Simulink · Stateflow · Symbolic verification · Monte-Carlo & robustness studies |
+| ⚙️ | **Real-Time & Embedded** | Simulink Real-Time · Hardware-in-the-Loop (HIL) testing · C/C++ · Microcontroller firmware |
+| 🧠 | **Learning-Based Methods** | Neural adaptive control (RBF networks) · Reinforcement learning · CNNs / MLPs · Fuzzy inference systems |
+| 🤖 | **Robotics** | Swarm & mobile robots · SLAM · Path planning · Manipulator dynamics · Teleoperation |
+| 💻 | **Software** | Python · Git · VS Code · LaTeX · Linux |
 
 ---
 
 ### 📊 GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Arshiagosh&show_icons=true&hide_border=true&theme=default" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arshiagosh&layout=compact&hide_border=true&theme=default" height="150" />
+  <img src="https://img.shields.io/github/followers/Arshiagosh?style=for-the-badge&logo=github&labelColor=0d1117&color=0076A8" />
+  <img src="https://img.shields.io/github/stars/Arshiagosh?style=for-the-badge&logo=github&labelColor=0d1117&color=0076A8" />
+  <img src="https://img.shields.io/badge/Focus-Control%20%26%20Robotics-0076A8?style=for-the-badge&labelColor=0d1117" />
+</p>
+
+<!--
+Optional: the github-readme-stats cards. The public Vercel instance is heavily
+rate-limited and often fails to render. To use them reliably, fork
+https://github.com/anuraghazra/github-readme-stats, deploy your own Vercel
+instance with a GitHub token, and swap the domain below.
+
+<p align="center">
+  <img src="https://YOUR-INSTANCE.vercel.app/api?username=Arshiagosh&show_icons=true&hide_border=true&cache_seconds=86400" height="150" />
+  <img src="https://YOUR-INSTANCE.vercel.app/api/top-langs/?username=Arshiagosh&layout=compact&hide_border=true&cache_seconds=86400" height="150" />
+</p>
+-->
+
+<p align="center">
+  <a href="https://github.com/Arshiagosh?tab=repositories"><b>Browse all repositories →</b></a>
 </p>
 
 ---
