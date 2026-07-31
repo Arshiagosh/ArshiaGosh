@@ -41,7 +41,6 @@ I work at the intersection of **control theory and robotics** — mostly on syst
 |---|---|
 | [**SwarmSim**](https://github.com/Arshiagosh/SwarmSim) | A general-purpose swarm robotics simulation platform in MATLAB, built on a layered architecture so controllers, behaviors, and scenarios can be swapped independently. |
 | [**Non-Linear-Control-CourseProject**](https://github.com/Arshiagosh/Non-Linear-Control-CourseProject) | Feedback linearization vs. sliding-mode control on a single-link flexible-joint arm — symbolically verified models plus a robustness study (parameter mismatch, matched disturbance, chattering). |
-| [**TeleOperationNN**](https://github.com/Arshiagosh/TeleOperationNN) | Master–slave teleoperation with an RBF neural-network adaptive controller and Lyapunov-based weight update laws, deployed on Simulink Real-Time. |
 | [**Temperature-IoT-Data-Anomaly-Detection**](https://github.com/Arshiagosh/Temperature-IoT-Data-Anomaly-Detection) | IoT capstone: anomaly detection on streaming temperature sensor data. |
 | [**Function-Approximation-using-Neural-Networks**](https://github.com/Arshiagosh/Function-Approximation-using-Neural-Networks) | MLP-based function approximation — the groundwork behind the neural adaptive controllers above. |
 
