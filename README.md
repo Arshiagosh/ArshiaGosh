@@ -20,18 +20,27 @@
 I work at the intersection of **control theory and robotics** — mostly on systems that have to stay stable, safe, and well-behaved when the model is uncertain, the actuators saturate, and the agents have to talk to each other.
 
 - 🎓 MSc in Control Systems at **IUST**, advised by **Dr. Farrokhi**
-- 🔬 Thesis: *Intelligent adaptive formation control for swarm wheeled mobile robots with guaranteed safety and actuator constraints* — distributed adaptive control for second-order multi-agent systems, with HOCBF-QP safety filters and sampled-data actuation
+- 🔬 Thesis: *Intelligent adaptive formation control for swarm wheeled mobile robots with guaranteed safety and actuator constraints* — a decentralized adaptive formation controller in which collision avoidance is a theorem under bounded inputs, built on a braking-distance control barrier function
 - 🤖 Long-standing interests: swarm robotics, mobile robots, SLAM, reinforcement learning, and nonlinear/adaptive control theory
-- 👨‍🏫 Teaching Assistant in **Industrial Networks**, **Digital Control Systems**, and **Mechatronics**; co-instructor of the **Digital Control Laboratory**
+- 👨‍🏫 Instructor of the **Digital Control Systems Laboratory**; Teaching Assistant in **Introduction to Programming**, **Industrial Networks**, **Digital Control Systems**, and **Mechatronics**
 - 💻 Computer Engineering minor — I like control theory with a working implementation attached to it
 
 ---
 
 ### 🧪 What I'm working on
 
-- **Safety-critical formation control** — reciprocal, half-responsibility high-order control barrier functions combined with projection-based parameter adaptation, benchmarked against gating, hysteresis, fuzzy-supervisor, and CBF-QP baselines *(paper in preparation)*
+- **Safety-critical formation control** — a relative-degree-one braking-distance control barrier function: with bounded inputs every agent has a finite stopping distance, so collision avoidance becomes a theorem rather than a tuning outcome. Each agent enforces its own half of each pairwise constraint, and inflating the stopping distance by one hold certifies the controller under sampled-data (zero-order-hold) control *(paper in preparation)*
 - **SwarmSim** — growing a general-purpose MATLAB swarm simulator into a broader research platform for adaptive, learning-based, and distributed control
-- **Bilateral teleoperation with RBF neural networks** — Lyapunov-based adaptive control under communication delay, running on Simulink Real-Time hardware
+- **Bilateral teleoperation with RBF neural networks** — Lyapunov-based adaptive control under communication delay, running on Simulink Real-Time hardware *([arXiv preprint](https://arxiv.org/abs/2608.20182))*
+
+---
+
+### 📄 Publications
+
+- Ghaemifar, Goshtasbi, Hajizadeh, Attarzadeh, Riazati, *Adaptive RBFNN Control of Uncertain Bilateral Teleoperation Systems with Delay-Dependent LMI Stability Conditions*, [arXiv:2608.20182](https://arxiv.org/abs/2608.20182), 2026 *(under review)*
+- A paper on braking-distance control barrier functions for input-constrained adaptive formation control *(in preparation)*
+
+🎓 [Google Scholar profile](https://scholar.google.com/citations?user=4dOycRYAAAAJ)
 
 ---
 
@@ -40,6 +49,7 @@ I work at the intersection of **control theory and robotics** — mostly on syst
 | Repository | What it is |
 |---|---|
 | [**SwarmSim**](https://github.com/Arshiagosh/SwarmSim) | A general-purpose swarm robotics simulation platform in MATLAB, built on a layered architecture so controllers, behaviors, and scenarios can be swapped independently. |
+| [**Vision-Obstacle-Avoidance-Robot**](https://github.com/Arshiagosh/Vision-Obstacle-Avoidance-Robot) | BSc final project: a differential-drive robot that drives to a goal and gets around obstacles using a camera, three ultrasonic sensors and wheel odometry (Raspberry Pi + Arduino, Python/C++). |
 | [**Non-Linear-Control-CourseProject**](https://github.com/Arshiagosh/Non-Linear-Control-CourseProject) | Feedback linearization vs. sliding-mode control on a single-link flexible-joint arm — symbolically verified models plus a robustness study (parameter mismatch, matched disturbance, chattering). |
 | [**Temperature-IoT-Data-Anomaly-Detection**](https://github.com/Arshiagosh/Temperature-IoT-Data-Anomaly-Detection) | IoT capstone: anomaly detection on streaming temperature sensor data. |
 | [**Function-Approximation-using-Neural-Networks**](https://github.com/Arshiagosh/Function-Approximation-using-Neural-Networks) | MLP-based function approximation — the groundwork behind the neural adaptive controllers above. |
@@ -56,7 +66,7 @@ I work at the intersection of **control theory and robotics** — mostly on syst
 | 📐 | **Simulation & Modeling** | MATLAB · Simulink · Stateflow · Symbolic verification · Monte-Carlo & robustness studies |
 | ⚙️ | **Real-Time & Embedded** | Simulink Real-Time · Hardware-in-the-Loop (HIL) testing · C/C++ · Microcontroller firmware |
 | 🧠 | **Learning-Based Methods** | Neural adaptive control (RBF networks) · Reinforcement learning · CNNs / MLPs · Fuzzy inference systems |
-| 🤖 | **Robotics** | Swarm & mobile robots · SLAM · Path planning · Manipulator dynamics · Teleoperation |
+| 🤖 | **Robotics** | Swarm & mobile robots · Path planning · Manipulator dynamics · Teleoperation |
 | 💻 | **Software** | Python · Git · VS Code · LaTeX · Linux |
 
 ---
@@ -92,6 +102,7 @@ instance with a GitHub token, and swap the domain below.
 Open to collaboration and discussion on multi-agent control, safety-critical control, and robotics research.
 
 - 💼 LinkedIn: [*Arshia Goshtasbi*](https://www.linkedin.com/in/arshia-goshtasbi/)
+- 🎓 Google Scholar: [*Arshia Goshtasbi*](https://scholar.google.com/citations?user=4dOycRYAAAAJ)
 - 📧 Email: Arshia.goshtasbi@gmail.com
 
 <p align="center"><i>"A controller is only as good as the guarantee behind it."</i></p>
