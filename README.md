@@ -49,6 +49,7 @@ I work at the intersection of **control theory and robotics** — mostly on syst
 | Repository | What it is |
 |---|---|
 | [**SwarmSim**](https://github.com/Arshiagosh/SwarmSim) | A general-purpose swarm robotics simulation platform in MATLAB, built on a layered architecture so controllers, behaviors, and scenarios can be swapped independently. |
+| [**GNE-Formation**](https://github.com/Arshiagosh/GNE-Formation) | Distributed generalized Nash equilibrium seeking for multi-robot formations with shared collision constraints, under partial-decision information, with a data-driven variant (Python). Self-study implementation of established methods. |
 | [**Vision-Obstacle-Avoidance-Robot**](https://github.com/Arshiagosh/Vision-Obstacle-Avoidance-Robot) | BSc final project: a differential-drive robot that drives to a goal and gets around obstacles using a camera, three ultrasonic sensors and wheel odometry (Raspberry Pi + Arduino, Python/C++). |
 | [**Non-Linear-Control-CourseProject**](https://github.com/Arshiagosh/Non-Linear-Control-CourseProject) | Feedback linearization vs. sliding-mode control on a single-link flexible-joint arm — symbolically verified models plus a robustness study (parameter mismatch, matched disturbance, chattering). |
 | [**Temperature-IoT-Data-Anomaly-Detection**](https://github.com/Arshiagosh/Temperature-IoT-Data-Anomaly-Detection) | IoT capstone: anomaly detection on streaming temperature sensor data. |
