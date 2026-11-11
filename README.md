@@ -30,7 +30,7 @@ I work at the intersection of **control theory and robotics** — mostly on syst
 ### 🧪 What I'm working on
 
 - **Safety-critical formation control** — a relative-degree-one braking-distance control barrier function: with bounded inputs every agent has a finite stopping distance, so collision avoidance becomes a theorem rather than a tuning outcome. Each agent enforces its own half of each pairwise constraint, and inflating the stopping distance by one hold certifies the controller under sampled-data (zero-order-hold) control *(paper in preparation)*
-- **SwarmSim** — growing a general-purpose MATLAB swarm simulator into a broader research platform for adaptive, learning-based, and distributed control
+- **SafeSwarm** — a tested MATLAB library for safe multi-robot control grown from SwarmSim: CBF-QP safety filters (centralised and decentralised) under input bounds, sampled-data checks, noise, lossy communication and faults, distributed MPC, a learned disturbance model and a ROS 2 bridge
 - **Bilateral teleoperation with RBF neural networks** — Lyapunov-based adaptive control under communication delay, running on Simulink Real-Time hardware *([arXiv preprint](https://arxiv.org/abs/2608.20182))*
 
 ---
@@ -48,6 +48,7 @@ I work at the intersection of **control theory and robotics** — mostly on syst
 
 | Repository | What it is |
 |---|---|
+| [**SafeSwarm**](https://github.com/Arshiagosh/SafeSwarm) | Safe multi-robot control in MATLAB: CBF-QP safety filters that wrap any controller, measured against noise, lossy and delayed messages, faulty robots, sampling and a distributed MPC baseline, with a ROS 2 bridge. Grown from SwarmSim. |
 | [**SwarmSim**](https://github.com/Arshiagosh/SwarmSim) | A general-purpose swarm robotics simulation platform in MATLAB, built on a layered architecture so controllers, behaviors, and scenarios can be swapped independently. |
 | [**GNE-Formation**](https://github.com/Arshiagosh/GNE-Formation) | Distributed generalized Nash equilibrium seeking for multi-robot formations with shared collision constraints, under partial-decision information, with a data-driven variant (Python). Self-study implementation of established methods. |
 | [**Vision-Obstacle-Avoidance-Robot**](https://github.com/Arshiagosh/Vision-Obstacle-Avoidance-Robot) | BSc final project: a differential-drive robot that drives to a goal and gets around obstacles using a camera, three ultrasonic sensors and wheel odometry (Raspberry Pi + Arduino, Python/C++). |
